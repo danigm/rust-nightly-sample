@@ -17,7 +17,31 @@
           ],
           "url": "https://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-gnu.tar.gz",
           "sha256": "8c714c2fc359fe55f121859dbefc5ac0f722c10b7e1ebf5657bf455c57be5376"
-        }
+        },
+        {
+          "type": "archive",
+          "only-arches": [
+            "i386"
+          ],
+          "url": "https://static.rust-lang.org/dist/rust-nightly-i686-unknown-linux-gnu.tar.gz",
+          "sha256": "c420eca932096ed1a48d75e6a2b37acdf1c0d4e4398ae7e8538c5f44addd0f2c"
+        },
+        {
+          "type": "archive",
+          "only-arches": [
+            "arm"
+          ],
+          "url": "https://static.rust-lang.org/dist/rust-nightly-arm-unknown-linux-gnueabihf.tar.gz",
+          "sha256": "745f9eebd814536ba32079405810c78442d8e3eb6ed1c922354f8ff90f6fd923"
+        },
+        {
+          "type": "archive",
+          "only-arches": [
+            "aarch64"
+          ],
+          "url": "https://static.rust-lang.org/dist/rust-nightly-aarch64-unknown-linux-gnu.tar.gz",
+          "sha256": "61e821b297703878d32b62a5459840e6db5e7e3f11c72135e37a24ebc335a8ae"
+        },
       ],
       "build-commands": [
         "./install.sh --prefix=/app/sdk/rust --disable-ldconfig --verbose"
